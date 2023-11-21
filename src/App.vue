@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       title: '自己紹介',
-      introduction: 'こんにちは、私の名前はMasatomo Yanagiharaです。インフラエンジニアとして働いています。'
+      introduction: 'こんにちは、私の名前はMasatomo Yanagiharaです。\nインフラエンジニアとして働いています。'
     }
   }
 }
