@@ -1,14 +1,27 @@
 <template>
-  <div>Hello {{ value }}</div>
+  <div id="app">
+    <h1>{{ title }}</h1>
+    <p>{{ introduction }}</p>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "App",
   data() {
     return {
-      value: "World"
-    };
+      title: '自己紹介',
+      introduction: 'こんにちは、私の名前はMasatomo Yanagiharaです。インフラエンジニアとして働いています。'
+    }
   }
-};
+}
 </script>
+
+<style scoped>
+#app {
+  text-align: center;
+  color: #2c3e50;
+}
+h1 {
+  font-size: 2em;
+}
+</style>
